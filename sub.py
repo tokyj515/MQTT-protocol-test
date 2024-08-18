@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 
 # 브로커 주소 및 토픽 설정
-broker_address = "ip"  # EC2 인스턴스의 공인 IP 주소
+broker_address = "3.35.30.20"  # EC2 인스턴스의 공인 IP 주소
 topic = "test/topic"
 
 # 메시지를 수신할 때 호출되는 콜백 함수
